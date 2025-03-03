@@ -4,8 +4,6 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS, show
 
 **Live Demo:** [https://shailpatel36.github.io/Portfolio-website/](https://shailpatel36.github.io/Portfolio-website/)
 
-![Portfolio Preview](./public/portfolio-preview.png)
-
 ## Features ✨
 - Responsive design for all screen sizes
 - Dark/light mode toggle
@@ -28,69 +26,13 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS, show
 ## Installation 💻
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone https://github.com/shailpatel36/Portfolio-website.git
 cd shailpatel36-portfolio-website
-\`\`\`
+```
 
-2. Install dependencies:
-\`\`\`bash
-npm install
-\`\`\`
-
-3. Run the development server:
-\`\`\`bash
+2. Run the development server:
+```bash
 npm run dev
-\`\`\`
+```
 
-## Project Structure 📁
-\`\`\`
-shailpatel36-portfolio-website/
-├── app/
-│   ├── components/
-│   │   ├── About.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── Services.jsx
-│   │   └── Work.jsx
-│   ├── globals.css
-│   ├── layout.js
-│   └── page.js
-├── public/
-│   └── images/
-├── .github/
-│   └── workflows/
-│       └── nextjs.yml
-├── tailwind.config.mjs
-└── next.config.mjs
-\`\`\`
-
-## Deployment 🚀
-This project is deployed using GitHub Pages with GitHub Actions. The deployment workflow:
-1. Automatically builds the project on push to \`main\` branch
-2. Exports static site using \`next export\`
-3. Deploys to GitHub Pages via \`gh-pages\` branch
-
-Configured in:
-- \`next.config.mjs\` for static export
-- \`.github/workflows/nextjs.yml\` for CI/CD
-
-## Contributing 🤝
-Contributions are welcome! Please follow these steps:
-1. Fork the project
-2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
-3. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
-4. Push to the branch (\`git push origin feature/AmazingFeature\`)
-5. Open a Pull Request
-
-## License 📄
-Distributed under the MIT License. See \`LICENSE\` for more information.
-
-## Acknowledgments 🙏
-- Next.js Team
-- Tailwind CSS Creators
-- Framer Motion Library
-- React Community
-EOF
