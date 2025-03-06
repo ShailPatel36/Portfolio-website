@@ -3,8 +3,8 @@ const nextConfig = {
   output: "export",
   images: {
     unoptimized: true,
-    domains: ["your-image-domain.com"], // Add if using external image URLs
   },
+  basePath: "/Portfolio-website", // Replace with your repository name
 };
 
 export default nextConfig;
