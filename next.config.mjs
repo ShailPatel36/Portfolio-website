@@ -4,7 +4,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/Portfolio-website", // Replace with your repository name
+  basePath: "/Portfolio-website"
 };
 
 export default nextConfig;
